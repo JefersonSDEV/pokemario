@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/validacao.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script defer src="js/index.js"></script>
+
+    <title>the adventures of the pokemon world</title>
+
+</head>
+<body >
+    <div id="game-board">
+        <img src="img/snorlax-munchlax.gif" class="ceu">
+        <img src="img/ash-pikachu-unscreen.gif" class="ash">
+        <img src="img/torre2.png" class="chegada">
+        <img src="img/pipe.png" class="obst">
+        <img src="./img/coin/bronze.png" class="coinB">
+        <img src="./img/coin/prata.png" class="coinP">
+        <img src="./img/coin/ouro.png" class="coinO">
+        <img src="img/ho-ooh.gif" class="obst-ar">
+
+    </div>
+    <footer class="rodape">
+        <div>
+            <div>&copy; feito por MESSI CARECA junho-2022</div>
+        </div>
+    </footer>
+    <div class="tempo"><main>
+        <div class="cronometro">
+          <span>0.0</span>
+        </div>
+        <div class="botao">
+          <button id="btnPause" onclick="stop()" class="tempo"></button>
+          <button class="inicio" onclick="pulo()" type="button" id="btnStart"></button>
+          <a id="btnClean"></a>
+        </div>
+      </main>
+      <link rel="stylesheet" href="css/style.css">
+      <script src="js/index.js"></script>
+    </div>
+    <div class="modal">
+        <div class="txt">
+            <div>PARABÉNS</div>
+            <div>VOCÊ VENCEU</div>
+        </div>
+        <div onclick="fechar()" class="fechar"></div>
+    </div>
+    <div class="filed">
+        <div class="area">
+            <div class="texto">
+                <div>OPS</div>
+                <div>VOCÊ PERDEU</div>
+            </div>
+            <a class="confirm" type="button" href="index.html">voltar</a>
+        </div>
+    </div>
+    <a class="btnR" href="index.html"><p>voltar</p></a>
+
+    <!--<div class="td">
+        <button onclick="start()" class="btd">inicio</button>
+    </div>--->
+</body>
+</html>
